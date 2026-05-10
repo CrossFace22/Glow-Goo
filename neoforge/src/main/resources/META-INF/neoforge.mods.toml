@@ -1,0 +1,24 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "glowgoo"
+version = "${version}"
+displayName = "Glow Goo"
+authors = "CrossFace22"
+description = "Adds a throwable sticky glowing goo that clings to blocks and lights the area."
+
+[[dependencies.glowgoo]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.11]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.glowgoo]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.11.32-beta,)"
+ordering = "NONE"
+side = "BOTH"

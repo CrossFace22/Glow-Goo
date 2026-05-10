@@ -1,0 +1,7 @@
+{
+  "render_type": "minecraft:translucent",
+  "parent": "glowgoo:block/flat_in",
+  "textures": {
+    "all": "glowgoo:block/glow_goo"
+  }
+}

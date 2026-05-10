@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "glowgoo",
+  "version": "${version}",
+  "name": "Glow Goo",
+  "description": "Adds a throwable sticky glowing goo that clings to blocks and lights the area.",
+  "authors": [
+    "CrossFace22"
+  ],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "icon": "assets/glowgoo/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.crossface22.glowgoo.fabric.GlowGooFabric"
+    ],
+    "client": [
+      "net.crossface22.glowgoo.fabric.GlowGooFabricClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
