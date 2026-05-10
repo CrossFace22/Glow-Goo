@@ -12,13 +12,13 @@ description = "Adds a throwable sticky glowing goo that clings to blocks and lig
 [[dependencies.glowgoo]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21.11]"
+versionRange = "[1.21.1]"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.glowgoo]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21.11.32-beta,)"
+versionRange = "[21.1.26,)"
 ordering = "NONE"
 side = "BOTH"
